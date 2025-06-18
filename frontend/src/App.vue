@@ -1,10 +1,10 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
+import EncurtadorUrl from './components/EncurtadorUrl.vue'
 </script>
 
 <template>
   <div>
-    <HelloWorld />
+    <EncurtadorUrl />
   </div>
 </template>
 

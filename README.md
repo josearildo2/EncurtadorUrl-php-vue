@@ -18,12 +18,21 @@ git clone -b https://github.com/josearildo2/EncurtadorUrl-php-vue.git encurtador
 
 ## Configurando o backend
 
-Acesse o repositório do backend e instale o composer para gerar o autoload
+Acesse o backend e instale o composer para gerar o autoload e starte o servidor php
 
 ```sh
 cd backend
 composer install
+php -S 127.0.0.1:8000
 ```
 
-### Dicas do projeto
+## Configurando o frontend
 
+Acesse o frontend e instale as dependências necessárias
+
+```sh
+cd frontend
+npm install && npm run dev
+```
+
+Agora você poderá acessa-lo pela url localhost:5173

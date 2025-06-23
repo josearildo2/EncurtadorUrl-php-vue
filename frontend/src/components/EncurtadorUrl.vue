@@ -39,6 +39,8 @@
         <p><strong>Encurtada:</strong> <a :href="resultado.short" target="_blank">{{ resultado.short }}</a></p>
       </div>
 
+      <!-- Próximo passo é criar um input que enviará o nome personalizado da URL, função disponibilizada pela Ulvis -->
+
     </div>
 
   </div>
